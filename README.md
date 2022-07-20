@@ -456,9 +456,3 @@ Essa seção é para te ajudar a ter um controle do que você precisa completar.
 * [ ] Interface que mostre o resultado da cifra corretamente.
 * [ ] Interface que permita escrever um texto para ser decifrado.
 * [ ] Interface que mostre o resultado decifrado corretamente.
-
-### Parte Opcional: "Hacker edition"
-
-* [ ] Cifrar/decifrar minúsculas.
-* [ ] Cifrar/decifrar _outros_ caractéres (espaços, pontuação, `ç`, `á`, ...).
-* [ ] Permitir usar `offset` negativo.
