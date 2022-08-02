@@ -1,23 +1,76 @@
 h1 {
     text-align: center;
-    font-family: 'Courier New', Courier, monospace;   
+    font-family: 'Courier New', Courier, monospace;
     font-weight: bold;
     font-size: 55px;
-    color:white;
+    color: rgb(245, 104, 53);
     margin: 30px;
-  }  
+}
 
-  p {
+p {
     text-align: center;
-    font-family: 'Courier New', Courier, monospace;   
-    color:rgb(255, 255, 255);
-    font-size:x-large;
+    font-family: 'Courier New', Courier, monospace;
+    color: purple;
+    font-size: x-large;
     font-weight: bold;
-  } 
+}
 
-  body{
-    background-image:url(imagem/scoobyfundo.png);
+body {
+    background-image: url(imagem/bg.png);
+    background-attachment: fixed;
     background-size: cover;
-  }
+    position: inherit;
+    overflow: auto;
+}
 
-  
+.textarea,
+.input,
+.btn {
+    font-family: 'open sans', sans-serif;
+}
+
+.form {
+    width: 70%;
+}
+
+.textarea {
+    background-color: aliceblue;
+    border-radius: 13px;
+    font-size: 18px;
+    height: 150px;
+    margin: 20px;
+    padding: 15px;
+    resize: none;
+    width: 55%;
+}
+
+.input {
+    font-size: 16px;
+    height: 35px;
+    margin-bottom: 16px;
+    width: 40%;
+    border-bottom: 10px;
+}
+
+
+.btn {
+    background-color: orangered;
+    color: whitesmoke;
+    font-size: 20px;
+    font-weight: 100;
+    letter-spacing: 0.6px;
+    margin: 4px;
+    padding: 4px 8px;
+    border-bottom: 10px;
+}
+
+.comousar {
+    background: #d11c1c56;
+    border-radius: 14px;
+    font-size: 19px;
+    letter-spacing: 0.3px;
+    margin-top: 30px;
+    padding: 13px;
+    text-align: justify;
+    width: 75%;
+}

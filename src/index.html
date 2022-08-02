@@ -1,15 +1,46 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Caesar Cipher</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <div id="root">
-      <h1>DECIFRANDO OS MISTERIOS COM SCOOBY</h1>
-      <p>Se divirta criando mensagens codificadas e decifrando mensagens <br> para encontrar as pistas e desvendar os mistérios!</p>
-      <div id="root">
-          
-</html>
 
+<head>
+  <meta charset="utf-8">
+  <title>Caesar Cipher</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <center>
+    <div>
+      <h1>DECIFRANDO OS MISTÉRIOS</h1>
+      <p>Se divirta criando mensagens codificadas e decifrando mensagens <br> para encontrar as pistas e desvendar os
+        mistérios!</p>
+    </div>
+    <main class="main">
+      <form class="form">
+      <textarea class="textarea" id="mensagem" placeholder="Insira sua mensagem"></textarea>
+      <input class="input" type="number" min="0" max="100" placeholder="Insira o deslocamento" id="chave" />
+      <div>
+        <button id="botaocifrar" class="btn">Cifrar</button>
+        <button id="botaodecifrar" class="btn">Decifrar</button>
+        <button id="botaoresetar" class="btn">Resetar</button>
+      </div>
+      <textarea id="resultadofinal" class="textarea" disabled>
+          </textarea>
+        </form>
+    </main>
+    <section class="comousar">
+      <p>
+        <span class="bold">Como brincar:</span><br />
+        formulas matematicas para descobrir a chave.<br />
+      </p>
+    </section>
+
+    <footer>
+      Projeto desenvolvido por Andressa Oliveira
+    </footer>
+  </center>
+
+  <script src="index.js" type="module"></script>
+
+</body>
+
+</html>
