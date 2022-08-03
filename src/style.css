@@ -3,14 +3,14 @@ h1 {
     font-family: 'Courier New', Courier, monospace;
     font-weight: bold;
     font-size: 55px;
-    color: rgb(245, 104, 53);
+    color: rgb(235, 91, 38);
     margin: 30px;
 }
 
-p {
+h2 {
     text-align: center;
     font-family: 'Courier New', Courier, monospace;
-    color: purple;
+    color: rgb(169, 45, 169);
     font-size: x-large;
     font-weight: bold;
 }
@@ -64,8 +64,12 @@ body {
     border-bottom: 10px;
 }
 
+span{ 
+    font-family: 'Courier New', Courier, monospace;
+
+}
 .comousar {
-    background: #d11c1c56;
+    background: #d13a1c56;
     border-radius: 14px;
     font-size: 19px;
     letter-spacing: 0.3px;
@@ -73,4 +77,9 @@ body {
     padding: 13px;
     text-align: justify;
     width: 75%;
+}
+
+footer {
+    color: antiquewhite;
+    font-family: 'Courier New', Courier, monospace;
 }
