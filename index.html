@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Caesar Cipher</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <center>
+    <div>
+      <h1>DECIFRANDO OS MISTÉRIOS</h1>
+      <h2>Se divirta cifrando e decifrando mensagens para<br> encontrar as pistas e desvendar os
+        mistérios!</h2>
+    </div>
+    <main class="main">
+      <form class="form">
+        <textarea class="textarea" id="mensagem" placeholder="Insira sua mensagem aqui"></textarea>
+        <input class="input" type="number" min="0" max="100" placeholder="Insira o valor do deslocamento" id="chave" />
+        <div>
+          <button id="botaocifrar" class="btn">CIFRAR</button>
+          <button id="botaodecifrar" class="btn">DECIFRAR</button>
+          <button id="botaoresetar" class="btn">RESETAR</button>
+        </div>
+        <textarea id="resultadofinal" class="textarea" disabled>
+          </textarea>
+      </form>
+    </main>
+    <section class="comousar">
+      <div>
+        <h3>INSTRUÇÕES PARA BRINCAR</h3>
+        <p>1 - Use a sua criatividade para esconder as pistas e criar questões matemáticas para o jogador descobrir o
+          <b>valor do deslocamento</b> da mensagem; <br>
+          2 - Insira a mensagem com a pista a ser cifrada no campo <b>"Insira sua mensagem aqui"</b> e clique no botão
+          <mark>CIFRAR</mark> . Clique em <mark>RESETAR</mark> para não deixar pistas;<br>
+          3 - Para o jogador descobrir cada pista, basta inserir a mensagem cifrada no campo <b>"Insira sua mensagem
+            aqui"</b> e clicar no botão <mark>DECIFRAR</mark> .
+        </p>
+      </div>
+    </section>
+
+    <footer>
+      Projeto desenvolvido por Andressa Oliveira
+    </footer>
+
+  </center>
+
+  <script src="index.js" type="module"></script>
+
+</body>
+
+</html>

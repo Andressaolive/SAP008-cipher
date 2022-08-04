@@ -1,0 +1,101 @@
+h1 {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 55px;
+    color: rgb(235, 91, 38);
+    margin: 30px;
+}
+
+h2 {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(47, 91, 12);
+    font-size: 20px;
+    font-weight: bold;
+}
+
+body {
+    background-image: url(imagem/backgroungscooby.png);
+    background-attachment: fixed;
+    background-size: cover;
+    position: inherit;
+    overflow: auto;
+}
+
+.textarea,
+.input,
+.btn {
+    font-family: 'open sans', sans-serif;
+}
+
+.form {
+    width: 70%;
+}
+
+.textarea {
+    background-color: aliceblue;
+    border-radius: 13px;
+    font-size: 18px;
+    height: 150px;
+    margin: 20px;
+    padding: 15px;
+    resize: none;
+    width: 55%;
+}
+
+.input {
+    font-size: 16px;
+    height: 35px;
+    margin-bottom: 16px;
+    width: 40%;
+    border-bottom: 10px;
+}
+
+
+.btn {
+    background-color: orangered;
+    color: whitesmoke;
+    font-size: 20px;
+    font-weight: 100;
+    letter-spacing: 0.6px;
+    margin: 4px;
+    padding: 4px 8px;
+    border-bottom: 10px;
+}
+
+h3 {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 25px;
+    color: rgb(37, 69, 11);
+    margin: 5px;
+}
+
+.comousar {
+    background: #ee6a5056;
+    border-radius: 14px;
+    font-size: 19px;
+    letter-spacing: 0.7px;
+    margin-top: 30px;
+    padding: 20px;
+    text-align: justify;
+    width: 75%;
+}
+
+mark {
+    background-color: orangered;
+    color: aliceblue;
+}
+
+p {
+    color: rgb(4, 7, 41);
+    font-family: 'open sans', sans-serif;
+    font-size: 20px;
+}
+
+footer {
+    color: antiquewhite;
+    font-family: 'Courier New', Courier, monospace;
+}
