@@ -16,7 +16,7 @@ function clickdecode() {
     click(event, cipher.decode);
 
 }
-const limpar= document.getElementById("botaoresetar");
+const limpar = document.getElementById("botaoresetar");
 limpar.addEventListener("click", clickresetar);
 
 function clickresetar() {
